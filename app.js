@@ -2,7 +2,7 @@ const day_el = document.querySelector(".day");
 const hour_el = document.querySelector(".hour");
 const munite_el = document.querySelector(".munite");
 const second_el = document.querySelector(".second");
-let counter = 0;
+
 
 getremaningTimes();
 
@@ -42,7 +42,6 @@ function changeSecondColor(seconds) {
 
   second_el.style.color = color;
 
-  counter += 6;
 }
 
 setInterval(getremaningTimes, 1000);
