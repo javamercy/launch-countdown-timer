@@ -91,22 +91,22 @@ body::after {
   content: "";
   display: block;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: var(--very-dark-black-blue);
-  left: -12.5px;
+  left: -5px;
 }
 
 .counter .time::before {
   content: "";
   display: block;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: var(--very-dark-black-blue);
-  right: -12.5px;
+  right: -5px;
 }
 
 .counter .text {
