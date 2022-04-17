@@ -7,8 +7,8 @@ let counter = 0;
 getremaningTimes();
 
 function getremaningTimes() {
-  const date = new Date("18 april 2022");
-
+  const date = new Date(2022, 5, 18, 10, 15, 0, 0);
+  console.log(date);
   const miliseconds = date - new Date();
 
   let seconds = Math.floor(miliseconds / 1000);
