@@ -95,7 +95,7 @@ body::after {
   height: 15px;
   border-radius: 50%;
   background-color: var(--very-dark-black-blue);
-  left: -5px;
+  left: -7.5px;
 }
 
 .counter .time::before {
@@ -106,7 +106,7 @@ body::after {
   height: 15px;
   border-radius: 50%;
   background-color: var(--very-dark-black-blue);
-  right: -5px;
+  right: -7.5px;
 }
 
 .counter .text {
